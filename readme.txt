@@ -22,7 +22,7 @@ simple_orm
         method.way=lombok\normal
             lombok：lombok模式，Getter和Setter用lombok生成，自动导包+自动加注解
             normal：默认模式，形如
-                            public String getDate() {
+                              public String getDate() {
                           		return date;
                           	}
                           	public void setDate(String date) {
