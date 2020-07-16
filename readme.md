@@ -21,11 +21,10 @@ db.password=root
 basePackage=org.com.po  //项目包路径  
 method.way=lombok\normal
 ```
->**basePackage**  
-普通工程中，会在当前指定目录 生成类  
-maven工程中，会在src\main\java\指定目录 生成类  
+**basePackage** ： 
+普通工程中，会在当前指定目录 生成类。而在maven工程中，会在src\main\java\指定目录 生成类  
 
->**method.way**  
+**method.way**  
 lombok：lombok模式，Getter和Setter用lombok生成，自动导包+自动加注解 形如  
 ```java
 import lombok.Getter;
